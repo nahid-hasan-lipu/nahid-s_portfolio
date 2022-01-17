@@ -6,6 +6,7 @@
 }
 .font-family{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 .first-area{
     width: 40%;
@@ -22,10 +23,7 @@ h2{
 .first-area img{
     width: 100%;
 }
-section{
-    height: 500%;
-    padding-bottom: 150px;
-}
+
 .hire-me{
     color: white;
     text-decoration: none;
@@ -36,6 +34,45 @@ section{
 }
 .first-bg{
     height: 500px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.middle-banar{
+    height: 500px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-section{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.last-bg{
+    height: 500px;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}    
+.middle-paragraph{
+    padding-right: 60px;
+}
+p{
+    color: gray;
+}
+section{
+    height: 500%;
+    padding-bottom: 150px;
 }
