@@ -76,3 +76,8 @@ section{
     height: 500%;
     padding-bottom: 150px;
 }
+footer{
+    color: navy;
+    font-size: 12px;
+    text-align: center;
+}
